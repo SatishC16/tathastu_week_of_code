@@ -3,5 +3,5 @@ sp = int(input("Enter selling-price: "))
 prof = sp-cp
 print("Profit: Rs.",prof)
 
-nsp = prof*(1.05)
+nsp = prof*(1.05) + cp
 print("Selling price should be Rs.",nsp,"to increase profit by 5%")
